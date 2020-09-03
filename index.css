@@ -1,0 +1,44 @@
+
+.first {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.first-left {
+    flex: 1;
+   
+    margin-top:18.4;
+}
+.first-center {
+    flex: 1;
+    align-items: center;
+}
+.flex-right{
+    flex: 1;
+    align-items: center;
+}
+.third{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  color:white;
+  height: 10vh;
+
+}
+.second {
+    background-image: url('./office.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    width: 200px;
+    height: 140px;
+    border: 2px solid yellow;
+}
